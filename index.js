@@ -25,11 +25,11 @@ var second = image2.setAttribute("src", randomImageSource1);
 // A condition that check for the winner 
 
 if(randomImageSource > randomImageSource1){
-     document.querySelector(".h").innerHTML = "Player 1 win 🎉";
+     document.querySelector("h2").innerHTML = "Player 1 win 🎉";
 }else if(randomImageSource < randomImageSource1){
-    document.querySelector(".h").innerHTML = "Player 2 win 🎉";
+    document.querySelector("h2").innerHTML = "Player 2 win 🎉";
 }
 else{
-    document.querySelector("h1").innerHTML = "Draw!";
+    document.querySelector("h2").innerHTML = "Draw!";
 }
 
